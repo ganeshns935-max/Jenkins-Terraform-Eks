@@ -10,7 +10,7 @@ terraform {
 }
 
 locals {
-  region = "us-east-1"
+  region = "ap-south-1"
   name   = "kastro-eks-cluster"
   vpc_cidr = "10.123.0.0/16"
 
